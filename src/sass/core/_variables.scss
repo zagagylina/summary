@@ -1,0 +1,28 @@
+$clr-white: #fff;
+$clr-black: #000;
+$clr-gray: #e3e3e3;
+$clr-gray-dark: #737373;
+$clr-gray-light: #e1e2e5;
+
+$clr-blue: #37a4dc;
+$clr-blue-light: #5584ff;
+$clr-red: #eb304d;
+$clr-pink: #f83c7b;
+
+
+
+$mq-desktop-min: 1201px;
+$mq-desktop-hd: 1336px;
+$mq-desktop-medium: 1680px;
+$mq-desktop-fullhd: 1920px;
+
+$mq-tablet: $mq-desktop-min - 1;
+$mq-tablet-medium: 1024px;
+$mq-tablet-small: 980px;
+$mq-tablet-min: 768px;
+
+
+$mq-mobile: $mq-tablet-min - 1;
+$mq-mobile-medium: 600px;
+$mq-mobile-small: 480px;
+$mq-mobile-min: 360px;

@@ -1,0 +1,9 @@
+.dashboard{
+	display: flex;
+	justify-content: center;
+	margin-top: -490px;
+	position: relative;
+	&>img{
+		box-shadow: -30px -20px 80px rgba($clr-blue-light, 0.2);
+	}
+}

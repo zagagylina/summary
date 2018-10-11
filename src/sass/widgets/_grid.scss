@@ -1,0 +1,39 @@
+.grid{
+	// background-color: $clr-blue;
+	// background-color: #7a8eb9;
+	color: $clr-gray-dark;
+
+	section{
+		display: flex;
+		flex-wrap: wrap;
+		background: #fafcfb;
+		padding: 10px;
+		margin: 20px;
+		box-shadow: 1px 1px 1px 2px rgba(0, 0, 0, .2);
+	}
+	&__section{
+		width: 100%;
+		// padding-left: 20px;
+	}
+	&__titles{
+		width: 30%;
+		max-width: 30%;
+	}
+	&__info{
+		width: 70%;
+		max-width: 70%;
+	}
+	&__list li{
+		list-style: inside;
+	}
+	&__gallery{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+	&__pimg{
+		width: 200px;
+		border: 1px solid #737373;
+		margin: 10px;
+	}
+}

@@ -1,0 +1,21 @@
+body {
+	background-color: $clr-gray;
+	font-family: roboto;
+}
+button{
+	cursor: pointer;
+}
+.wrapper{
+	max-width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0 20px;
+}
+
+.title-style{
+	font-family: 'Roboto', sans-serif;
+	color:  $clr-white;
+	font-size: 60px;
+	font-weight: 100;
+	text-align: center;
+}
