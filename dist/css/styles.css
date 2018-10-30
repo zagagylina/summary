@@ -302,6 +302,10 @@ button {
   .header__wrapper {
     display: flex;
     justify-content: space-around; }
+    @media screen and (max-width: 767px) {
+      .header__wrapper {
+        flex-direction: column;
+        align-items: center; } }
   .header__text {
     display: flex;
     flex-direction: column;
@@ -315,6 +319,9 @@ button {
     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2); }
   .header__title {
     font-size: 40px; }
+    @media screen and (max-width: 767px) {
+      .header__title {
+        font-size: 32px; } }
   .header__subtitle {
     font-size: 26px; }
   .header__contacts {
@@ -327,7 +334,7 @@ button {
     flex-wrap: wrap;
     background: #fafcfb;
     padding: 10px;
-    margin: 20px;
+    margin: 20px 0;
     box-shadow: 1px 1px 1px 2px rgba(0, 0, 0, 0.2); }
   .grid__section {
     width: 100%; }
